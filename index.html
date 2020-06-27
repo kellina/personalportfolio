@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="images/logo-kellina.png"/>
+    <link type="text/css" rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Kellina Portfolio</title>
+</head>
+
+<body>
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#welcome-section"> About</a></li>
+                <li><a class="nav-link" href="#projects-section"> Work</a></li>
+                <li><a class="nav-link" href="#contact"> Contact</a></li>
+            </ul>
+            <img src="images/logo-kellina.png" width="40" height="40">
+        </nav>
+  
+    <main id="content">
+        <div id="particles-js"></div>
+        <script src="js/particles.min.js"></script>
+        <script>
+            /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+            particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
+                console.log("loaded")
+            });
+        </script>
+        <section id="welcome-section" class="welcome-section">
+            <h1>Hey, I am Kellina</h1>
+            <p>A web designer & front-end developer</p>
+            <a class="welcome-read" href="#welcome-read">Read more...</a>
+        </section>
+
+        <section class="projects-section" id="projects-section">
+            <header id="welcome-read">
+                <p>Currently a web development student</p>
+                <p>I like to design and code </p>
+                <p class="p-different">These are some of my projects:</p>
+            </header>
+
+            <section id="projects-grid">
+                <div class="project">
+                    <div class="gallery">
+                        <a href="https://webjsdoc.kellina.com.br" target="_blank" class="project">
+                            <img class="project-image" src="images/webjsdoc.png">
+                            <p class="project-title"><span class="code">&lt;</span> Web Documentation JS<span
+                                    class="code"> /&gt;</span></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="gallery">
+                        <a href="https://codepen.io/kellina/pen/ExPPObj" target="_blank" class="project">
+                            <img class="project-image" src="images/tribute-Liskov.png">
+                            <p class="project-title"><span class="code">&lt;</span> Tribute Page Liskov<span
+                                    class="code"> /&gt;</span></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="gallery">
+                        <a href="https://codepen.io/kellina/full/xxZRooB" target="_blank" class="project">
+                            <img class="project-image" src="images/survey-form.png">
+                            <p class="project-title"><span class="code">&lt;</span> Survey Form <span
+                                    class="code"> /&gt;</span></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="gallery">
+                        <a href="https://calculadoraemprestimo.netlify.app" target="_blank" class="project">
+                            <img class="project-image" src="images/calculadora.png">
+                            <p class="project-title"><span class="code">&lt;</span> Loan Calculator<span
+                                    class="code"> /&gt;</span></p>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+        <section class="contact" id="contact">
+            <div>
+                <h2>Let's work together...</h2>
+                <p>Contact me</p>
+            </div>
+            <div class="contact-links">
+                <a id="profile-link" href="https://github.com/kellina" target="_blank" class="btn contact-details"><i
+                        class="fa fa-github"></i> GitHub</a>
+                <a href="https://www.freecodecamp.org/fccc9d6ace9-dc3c-4805-89de-ae42013b8725" target="_blank"
+                    class="btn contact-details"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a>
+                <a href="https://www.linkedin.com/in/kellina-oliveira-82375336" target="_blank"
+                    class="btn contact-details"><i class="fa fa-linkedin"></i> Linkedin</a>
+                <a href="kellina@gmail.com" class="btn contact-details"><i class="fa fa-at"></i> Send a email</a>
+                <a href="tel: 55-85-996705430" class="btn contact-details"><i class="fa fa-mobile-phone"></i> Call me</a>
+            </div>
+        </section>
+        <footer>
+            <p>
+                © Created for Kellina Oliveira
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
