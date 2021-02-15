@@ -195,27 +195,6 @@ div .project-image {
 }
 
 
-@media (max-width: 30em) {
-  #navbar {
-    justify-content: center;
-  }
-
-  .welcome-section {
-    font-size: 55%;
-  }
-
-  .projects-title {
-    padding: 6rem 1rem;
-    text-align: center;
-  }
-
-  .project {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-}
-
 .contact {
   padding: 10px;
   display: flex;
@@ -263,4 +242,25 @@ footer {
   font-size: 12px;
   text-align: end;
   text-transform: uppercase;
+}
+
+@media (max-width: 30em) {
+  #navbar {
+    justify-content: center;
+  }
+
+  .welcome-section {
+    font-size: 55%;
+  }
+
+  .projects-title {
+    padding: 6rem 1rem;
+    text-align: center;
+  }
+
+  .project {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
